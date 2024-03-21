@@ -13,9 +13,9 @@ const swiperTop = new Swiper('.top__swiper', {
   },
 });
 
-const swiperAbout = new Swiper(".about__swiper", {
-  slidesPerView: 3,
-  spaceBetween: 30,
+const swiperAbout = new Swiper(".about__slider", {
+  slidesPerView: 4,
+  spaceBetween: 20,
   freeMode: true,
   navigation: {
     nextEl: '.swiper-button-next',
