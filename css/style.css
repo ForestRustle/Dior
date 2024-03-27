@@ -17,7 +17,7 @@ ul {
   list-style-type: none;
 }
 
-button{
+button {
   background-color: transparent;
   padding: 0;
   border: 0;
@@ -344,11 +344,11 @@ body {
 }
 
 /* стили для видео */
-.video{
+.video {
   margin-bottom: 150px;
 }
 
-.video__box{
+.video__box {
   margin-left: auto;
   max-width: 997px;
   min-height: 600px;
@@ -361,3 +361,4 @@ body {
   align-items: center;
 }
 
+/* стили для футера */
