@@ -17,6 +17,13 @@ ul {
   list-style-type: none;
 }
 
+button{
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
 .container {
   max-width: 1220px;
   padding: 0 10px;
@@ -335,3 +342,22 @@ body {
   font-size: 32px;
   font-style: italic;
 }
+
+/* стили для видео */
+.video{
+  margin-bottom: 150px;
+}
+
+.video__box{
+  margin-left: auto;
+  max-width: 997px;
+  min-height: 600px;
+  background-image: url(../images/video_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
