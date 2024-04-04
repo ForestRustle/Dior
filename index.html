@@ -60,16 +60,13 @@
     </header>
 
     <section class="top">
-      <!-- Slider main container -->
       <div class="top__swiper swiper">
-        <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
-          <!-- Slides -->
           <div class="swiper-slide">
             <div class="top-slide">
               <div class="container">
                 <div class="top-slide__inner">
-                  <img src="./images/slider-top/slider-1.jpg" alt="Slider 1">
+                  <img class="top-slide__img--mini" src="./images/slider-top/slider-1.jpg" alt="Slider 1">
                   <div class="top-slide__content">
                     <h1 class="top-slide__title">GRIS DIOR</h1>
                     <p class="top-slide__subtitle">Fragrance</p>
@@ -77,7 +74,7 @@
                       unexpected facets.</p>
                     <a href="#" class="top-slide__btn button">DISCOVER</a>
                   </div>
-                  <img src="./images/slider-top/slider-2.jpg" alt="Slider 2">
+                  <img class="top-slide__img" src="./images/slider-top/slider-2.jpg" alt="Slider 2">
                 </div>
               </div>
             </div>
@@ -101,7 +98,8 @@
             </div>
           </div>
         </div>
-        <!-- If we need navigation buttons -->
+
+        <div class="swiper-pagination"></div>
         <div class="container container-arrow">
           <div class="swiper-button-prev">
             <img src="./images/Left arrow.svg" alt="Left Arrow">
@@ -119,7 +117,7 @@
           <h2 class="about__title">
             DARE IN GRIS DIOR
           </h2>
-          <div class="about__textblox">
+          <div class="about__textbox">
             <div class="about__text">
               <p>Gris Dior is the olfactory expression of gray, the iconic color of the House of Dior that embodies the
                 bold spirit of
@@ -217,17 +215,17 @@
       </div>
     </section>
 
-    <!-- дальше аккордеон -->
+
     <div class="accordeon">
-      <!--  -->
+
       <div class="container">
-        <!-- для стилизации содержимого аккордеона единым блоком -->
+
         <div class="accordeon__inner">
-          <!-- для каждой строки -->
+
           <div class="accordeon__item">
-            <!-- для нажатия по полю аккордиона -->
+
             <div class="accordeon__triger">
-              <!-- сам контент -->
+
               <p class="accordeon__triger-title">
                 DESCRIPTION
               </p>
@@ -295,9 +293,7 @@
               <p class="accordeon__triger-title">
                 INGREDIENTS
               </p>
-              <!-- <p class="accordeon__trigger-text">
 
-              </p> -->
             </div>
             <div class="accordeon__content">
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At laborum expedita alias doloribus
@@ -314,7 +310,7 @@
         </div>
       </div>
     </div>
-    <!-- товары -->
+
     <div class="products">
       <div class="container">
         <div class="products__inner">
@@ -363,7 +359,7 @@
         </div>
       </div>
     </div>
-    <!-- секция с видео -->
+
     <div class="video">
       <div class="container">
         <div class="video__box">
@@ -373,7 +369,7 @@
         </div>
       </div>
     </div>
-    <!-- футер -->
+
     <footer class="footer">
       <div class="container">
         <div class="footer__top">
@@ -382,7 +378,7 @@
           </a>
           <img src="./images/footer_img.png" alt="" class="footer__img">
           <div class="footer__items">
-            <!-- 1 -->
+
             <div class="footer__item">
               <h5 class="footer__item-title">
                 SIGN UP FOR EXCLUSIVITY
@@ -394,7 +390,7 @@
                 </button>
               </form>
             </div>
-            <!-- 2 -->
+
             <div class="footer__item">
               <h5 class="footer__item-title">
                 FIND A BOUTIQUE
@@ -408,7 +404,7 @@
                 </li>
               </ul>
             </div>
-            <!-- 3 -->
+
             <div class="footer__item">
               <h5 class="footer__item-title">
                 CLIENT SERVICES
@@ -426,7 +422,7 @@
               </ul>
             </div>
           </div>
-          <!-- links -->
+
           <ul class="footer__social-list">
             <li class="footer__social-item">
               <a href="#" class="footer__social-link">
@@ -502,7 +498,6 @@
         </div>
       </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>

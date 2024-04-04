@@ -1,11 +1,13 @@
 const swiperTop = new Swiper('.top__swiper', {
   // Optional parameters
   effect: "fade",
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  // },
+  pagination: {
+    el: ".swiper-pagination",
   },
-
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
@@ -25,6 +27,6 @@ const swiperAbout = new Swiper(".about__slider", {
 
 document.querySelectorAll('.accordeon__triger').forEach((item) => {
   item.addEventListener('click', () => {
-    item.parentNode.classList.toggle('accordeon__item--active')
+    item.parentNode.classList.toggle('accordeon__item--active');
   });
 });
